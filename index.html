@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina inicial Starbucks</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="Javascript/index.js"></script>
+</head>
+<body>
+    
+    <section>
+        <div class="circle"></div>
+        <header class="cabeca">
+            <a href="#"><img src="images/logo.png" class="logo"></a>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menuElemen">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Novidades</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>Não é apenas café<br>isso é <span>Starbucks</span></h2>
+                <p>Na Starbucks, cada xícara é feita com carinho e paixão, Seja um espresso encorpado,
+                    um frappuccino geladinho ou um latte cremoso, temos a bebida ideal para turbinar seu dia.</p>
+                <a href="#" class="zoom-button">Ver mais</a>
+            </div>
+            <div class="imgBox">
+                <img src="images/img1.png" class="starbucks">
+            </div>
+        </div>
+
+        
+        <ul class="thumb">
+            <li><img src="images/thumb1.png" onclick="imgSlider('images/img1.png');changeCircleColor('#017143')"></li>
+            <li><img src="images/thumb2.png" onclick="imgSlider('images/img2.png');changeCircleColor('#eb7495')"></li>
+            <li><img src="images/thumb3.png" onclick="imgSlider('images/img3.png');changeCircleColor('#d752b1')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a id="icon_social"  href="#"><img src="images/facebook.png"></a></li>
+            <li><a id="icon_social" href="#"><img src="images/twitter.png"></a></li>
+            <li><a id="icon_social" href="#"><img src="images/instagram.png"></a></li>
+        </ul>
+    </section>
+</body>
+</html>
