@@ -451,4 +451,12 @@ header ul li a:hover::after {
         padding: 8px 15px;
         font-size: 0.9em;
     }
+    @media (max-width: 767px) {
+    .content .imgBox {
+        width: 100%;
+        justify-content: center;
+        padding-right: 0;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
 }
